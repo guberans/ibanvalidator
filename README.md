@@ -39,8 +39,9 @@ Formatted IBAN examples:
 
 
 If you prefer you can build a jar file:
-
+```
 $ mvn package
-$ java -jar target/themoviedb-0.0.1-SNAPSHOT.jar
+$ java -jar target/iban-0.0.1-SNAPSHOT.jar
+```
 
 # Docker
