@@ -1,0 +1,30 @@
+{
+	"countries":[
+		{
+			"country":"United Kingdom",
+			"country_code":"GB",
+			"length":22,
+			"embeds":{
+				"bank_code":{
+					"position":4,
+					"length":4
+				},
+				"branch_code":{
+					"position":8,
+					"length":6
+				}
+			}
+		},
+		{
+			"country":"Sweden",
+			"country_code":"SE",
+			"length":24,
+			"embeds":{
+				"bank_code":{
+					"position":4,
+					"length":3
+				}
+			}
+		}
+	]
+}
