@@ -7,6 +7,13 @@ IBAN Validator project
 $ mvn install
 $ mvn spring-boot:run
 ```
+
+If you prefer you can build a jar file:
+```
+$ mvn package
+$ java -jar target/iban-0.0.1-SNAPSHOT.jar
+```
+
 Then use one of the below or replace {IBAN} with the IBAN-number you would like to test.
 ```
 $ curl http://localhost:8080/iban?ibannumber=ES79 2100 0813 6101 2345 6789
@@ -38,10 +45,5 @@ Formatted IBAN examples:
 
 
 
-If you prefer you can build a jar file:
-```
-$ mvn package
-$ java -jar target/iban-0.0.1-SNAPSHOT.jar
-```
 
 # Docker
